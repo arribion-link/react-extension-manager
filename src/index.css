@@ -64,7 +64,7 @@ header{
   border: 1px solid gainsboro;
   border-radius: 5px;
   background-color: transparent;
-  min-width: 25em;
+  min-width: 27em;
 }
 
 /* EXTENSIONS SECTION */
@@ -95,10 +95,33 @@ header{
 .extension-container{
   grid-template-columns:  repeat(2, 1fr);
 }
+.search-filterBtn-section{
+  flex-direction: column;
+}
+.searchInput{
+  min-width: 100%;
+}
+/* FILTER SECTION */
+.filter-btns-container{
+  margin-top: 1.5em;
+}
 }
 
 @media(max-width:600px){
 .extension-container{
   grid-template-columns:  repeat(1, 1fr);
+}
+.search-filterBtn-section{
+ justify-content: center;
+}
+.searchInput{
+  padding: 7px;
+}
+button{
+   padding: 4px;
+  border-radius: 5px;
+  min-width: 4em;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 }
