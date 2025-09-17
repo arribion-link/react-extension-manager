@@ -5,6 +5,7 @@ const SearchBar = () => {
           <input
               type="search"
               placeholder='search for extensions...'
+              className="searchInput"
           />
     </div>
   )

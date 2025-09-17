@@ -14,6 +14,18 @@ section{
   margin: 1em;
 }
 
+button{
+  padding: 5px;
+  background-color: transparent;
+  color: gray;
+  border-radius: 5px;
+  min-width: 5em;
+  border: none;
+  background-color: rgb(52, 52, 52);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
 /* HEADER */
 header{
   padding: 1em;
@@ -40,6 +52,21 @@ header{
   padding: 2em 0em;
 }
 
+.saerch-bar-container{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+
+.searchInput{
+  padding: 9px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  background-color: transparent;
+  min-width: 25em;
+}
+
 /* EXTENSIONS SECTION */
 .extension-section{
   margin-top: 4em;
@@ -62,4 +89,16 @@ header{
   background-color: rgb(39, 39, 61);
   min-height: 13em;
   /* max-width: 500px; */
+}
+
+@media(max-width:800px){
+.extension-container{
+  grid-template-columns:  repeat(2, 1fr);
+}
+}
+
+@media(max-width:600px){
+.extension-container{
+  grid-template-columns:  repeat(1, 1fr);
+}
 }
