@@ -6,14 +6,20 @@
 
 body{
   font-family: monospace;
-  background-color: rgb(36, 36, 36);
-  color: gainsboro;
+  background-color: rgb(25, 25, 39);
+  color: rgb(176, 176, 176);
+}
+
+section{
+  margin: 1em;
 }
 
 /* HEADER */
 header{
   padding: 1em;
   justify-content: space-between;
+  background-color: rgb(39, 39, 61);
+  border-bottom: 1px solid gainsboro;
 }
 
 .logo{
@@ -21,19 +27,39 @@ header{
   font-weight: 800;
 }
 
+/* FILTER SECTION */
+.filter-btns-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.search-filterBtn-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0em;
+}
 
 /* EXTENSIONS SECTION */
+.extension-section{
+  margin-top: 4em;
+}
+
+.extension-section h1{
+  margin-bottom: 1em;
+}
+
 .extension-container{
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(300px, 1fr)); 
-  /* display: flex;
-  flex-wrap: wrap; */
+  grid-template-columns:  repeat(3 ,1fr);
+  gap: 2em;
 
 }
 .extension-card{
   padding: 1em;
   border: 1px solid gainsboro;
   border-radius: 10px;
-  background-color: rgb(46, 46, 46) ;
-  max-width: 500px;
+  background-color: rgb(39, 39, 61);
+  min-height: 13em;
+  /* max-width: 500px; */
 }

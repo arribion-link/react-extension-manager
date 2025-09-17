@@ -4,6 +4,7 @@ import Card from "./Card"
 const Extensions = () => {
   return (
     <section className="extension-section">
+      <h1>Extension Lists</h1>
       <div className="extension-container">
         <Card
           imgUrl=""

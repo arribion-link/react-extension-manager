@@ -1,9 +1,11 @@
-import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div>
-      
+    <div className='saerch-bar-container'>
+          <input
+              type="search"
+              placeholder='search for extensions...'
+          />
     </div>
   )
 }
