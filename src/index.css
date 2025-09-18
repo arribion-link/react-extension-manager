@@ -6,7 +6,7 @@
 
 body{
   font-family: monospace;
-  background-color: rgb(25, 25, 39);
+  background-color: rgb(16,24,40);
   color: rgb(176, 176, 176);
 }
 
@@ -17,11 +17,11 @@ section{
 button{
   padding: 5px;
   background-color: transparent;
-  color: gray;
+  color:rgb(209,213,220);
   border-radius: 5px;
   min-width: 5em;
   border: none;
-  background-color: rgb(52, 52, 52);
+ background-color: rgb(30,41,57);
   font-size: 1.3em;
   font-weight: 600;
 }
@@ -30,8 +30,8 @@ button{
 header{
   padding: 1em;
   justify-content: space-between;
-  background-color: rgb(39, 39, 61);
-  border-bottom: 1px solid gainsboro;
+  background-color: rgb(30,41,57);
+  border-bottom: 1px solid rgb(72, 72, 72);
 }
 
 .logo{
@@ -61,7 +61,7 @@ header{
 
 .searchInput{
   padding: 9px;
-  border: 1px solid gainsboro;
+  border:1px solid rgb(72, 72, 72);
   border-radius: 5px;
   background-color: transparent;
   min-width: 27em;
@@ -84,9 +84,9 @@ header{
 }
 .extension-card{
   padding: 1em;
-  border: 1px solid gainsboro;
+  border: 1px solid rgb(72, 72, 72);
   border-radius: 10px;
-  background-color: rgb(39, 39, 61);
+  background-color: rgb(30,41,57);
   min-height: 13em;
   /* max-width: 500px; */
 }
